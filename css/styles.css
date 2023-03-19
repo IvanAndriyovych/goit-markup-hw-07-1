@@ -40,12 +40,14 @@ border-bottom: 1px solid #E7E9FC;
 }
 
 .container {
-    width: 1158px;
+    width: 100%;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
     outline: 1px solid red;
     margin: 0 auto;
+
+    
     
 }
 
@@ -307,6 +309,15 @@ height: 48px;
 
 }
 
+.mob-menu {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
 
 /*----------HERO--------*/
 
@@ -496,14 +507,7 @@ font-family: 'Roboto', sans-serif;
 
 
 
-.container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    outline: 1px solid red;
-    margin: 0 auto;
 
-}
 
 .main-container{
     display: flex;
@@ -556,6 +560,8 @@ color:#404BBF;
     
 }
 
+
+
 .studio1:hover {
     color: #404BBF ; 
     
@@ -596,6 +602,18 @@ border-radius: 2px;
 .mail-one:focus {
     color: #404BBF; 
     
+}
+
+.menu-open-icon {
+    stroke:#000000;
+   }
+
+.menu-open {
+    width: 29px;
+    height: 18px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
 }
 
 

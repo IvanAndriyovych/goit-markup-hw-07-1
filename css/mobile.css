@@ -1,5 +1,60 @@
 @media screen and (min-width: 480px) {
     .container {
-        width: 468px;
+        width: 428px;
     }
+.main-container {
+    margin: 0 auto;
+   
+}
+
+.header-main{
+padding: 0;
+}
+
+.logo-footer{
+ margin-right: 250.35px;
+}
+
+.menu-open-icon {
+    stroke:#000000;
+   }
+
+
+.menu-open {
+    width: 29px;
+    height: 18px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.mob-menu {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+
+
+
+.description {
+    display: block;
+    
+margin: 0 auto;
+ margin-bottom: 72px;
+    
+}
+
+
+.description image {
+    display: flexbox;
+    margin-bottom: 72px;   
+    
+}
+
+
+
     }
