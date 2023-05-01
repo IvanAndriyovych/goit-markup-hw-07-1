@@ -28,18 +28,28 @@ padding: 0;
     border: none;
 }
 
-.mob-menu {
+.mob-menu  {
     position: fixed;
     top: 0;
     z-index: 1;
     width: 100vw;
     height: 100vh;
-    background-color: #FFFFFF;
+    background-color:#FFFFFF;
   
 }
 
 
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 337px;
+    background-color: var(--color-background-primary);
+    transform: translateX(100%);
 
+}
 
 .description {
     display: block;
@@ -54,6 +64,18 @@ margin: 0 auto;
     display: flexbox;
     margin-bottom: 72px;   
     
+}
+
+.navigation {
+    display: none;
+}
+
+.link list {
+    display: none;
+}
+
+.studio1 {
+    display: none;
 }
 
 
