@@ -1,9 +1,10 @@
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
     .container {
         width: 428px;
     }
 .main-container {
     margin: 0 auto;
+    height: 70px;
    
 }
 
@@ -51,6 +52,31 @@ padding: 0;
 
 }
 
+.title-main {
+    margin-left: 54px;
+    margin-right: 54px;
+    margin-bottom: 112px;
+   
+
+}
+
+.custom-icons-strategy {
+    display: none;
+}
+
+.custom-link-strategy {
+    width: 100%;
+    height: 100%;
+    height: 112px;
+    width: 264px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
 .description {
     display: block;
     
@@ -70,13 +96,12 @@ margin: 0 auto;
     display: none;
 }
 
-.link list {
-    display: none;
-}
-
-.studio1 {
+.address {
     display: none;
 }
 
 
 
+
+
+}
