@@ -100,6 +100,70 @@ margin: 0 auto;
     display: none;
 }
 
+.title-main {
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+margin-bottom: 48px;
+text-align: center;
+text-transform: capitalize;
+}
+
+
+.tape-description {
+
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+}
+
+
+.description-text {
+
+font-weight: 500;
+align-self: stretch;
+text-align: center;
+flex: none;
+}
+
+.seconds-what {
+    display: none;
+}
+
+.type-second{
+
+display: inline-table;
+    
+}
+
+.type-title-second {
+
+    margin-top: 72px;
+}
+
+.custom-company {
+    display: inline-table;
+}
+
+
+.container-footer  {
+
+    display: inline-table;
+}
+
+
+
 
 
 
