@@ -1,5 +1,6 @@
 @media screen and (max-width: 480px) {
-    .container {
+    
+.container {
         width: 428px;
     }
 .main-container {
@@ -15,6 +16,39 @@ padding: 0;
 .logo-footer{
  margin-right: 250.35px;
 }
+.basis-main {
+    width: 428px;
+height: 432px;
+}
+
+.title-main {
+    position: absolute;
+width: 320px;
+height: 80px;
+line-height: 40px;
+text-align: center;
+justify-items: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+left: 54px;
+}
+
+.order {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
+
+position: absolute;
+width: 169px;
+height: 56px;
+left: 129px;
+top: 334px;
+margin-top: 72px;
+
+}
+
 
 .menu-open-icon {
     stroke:#000000;
@@ -52,13 +86,7 @@ padding: 0;
 
 }
 
-.title-main {
-    margin-left: 54px;
-    margin-right: 54px;
-    margin-bottom: 112px;
-   
 
-}
 
 .custom-icons-strategy {
     display: none;
