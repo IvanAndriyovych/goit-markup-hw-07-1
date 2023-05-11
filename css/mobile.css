@@ -1,13 +1,15 @@
 @media screen and (max-width: 480px) {
     
+
 .container {
-        width: 428px;
-    }
-.main-container {
-    margin: 0 auto;
-    height: 70px;
-   
-}
+        max-width: 428px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+     
 
 .header-main{
 padding: 0;
@@ -187,7 +189,7 @@ display: inline-table;
 
 .container-footer  {
 
-    display: inline-table;
+   
 }
 
 
